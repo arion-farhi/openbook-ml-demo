@@ -23,9 +23,10 @@ Built an ML pipeline that predicts patient copays and generates professional tre
 
 | Aspect | This Demo | Production (Openbook) |
 |--------|-----------|----------------------|
-| **Insurance Data** | Coverage rates derived from historical training data | Real-time extraction via [Stedi API](https://www.stedi.com/) |
+| **Insurance Data** | Coverage rates from historical training data | Real-time extraction via [Stedi API](https://www.stedi.com/) |
 | **Patient Data** | Manual form input | CSV upload with batch processing (100+ patients) |
-| **Deployment** | Streamlit demo app | Authenticated web app with FastAPI backend (slightly different model due to discrepancy between demo and production needs) |
+| **Treatment Plans** | Display in browser | PDF generation with automated email delivery |
+| **Deployment** | Public Streamlit demo | Authenticated portal with FastAPI backend (slightly different model due to demo v production needs) |
 
 ---
 
