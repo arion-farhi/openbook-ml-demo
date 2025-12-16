@@ -24,9 +24,8 @@ Built an ML pipeline that predicts patient copays and generates professional tre
 | Aspect | This Demo | Production (Openbook) |
 |--------|-----------|----------------------|
 | **Insurance Data** | Coverage rates derived from historical training data | Real-time extraction via [Stedi API](https://www.stedi.com/) |
-| **Patient Data** | Manual form input | Practice management software integration |
-| **Model** | Heuristics + fine-tuned Gemini | Full attention-based neural network + Gemini |
-| **Deployment** | Streamlit demo app | Embedded in dental practice software |
+| **Patient Data** | Manual form input | CSV upload with batch processing (100+ patients) |
+| **Deployment** | Streamlit demo app | Authenticated web app with FastAPI backend (slightly different model due to discrepancy between demo and production needs) |
 
 ---
 
@@ -141,11 +140,11 @@ FastAPI backend and Streamlit frontend deployed on Cloud Run with CI/CD via Clou
 
 | Category | Technologies |
 |----------|-------------|
-| **Modeling** | PyTorch Lightning, Attention Networks, Gemini SFT, Vertex AI Vizier |
-| **Data** | Cloud Storage, Dataflow, Feature Store, TFDV |
-| **Orchestration** | Kubeflow Pipelines, MLflow Tracking, Cloud Build CI/CD, Terraform |
-| **Monitoring** | Evidently AI, Cloud Monitoring, Pub/Sub Triggers, Auto-Retraining |
-| **Deployment** | FastAPI, Streamlit, Cloud Run |
+| **Modeling** | Attention-based multi-output neural network (PyTorch Lightning), Gemini SFT, Vertex AI Vizier |
+| **Data** | Cloud Storage data lake, Dataflow batch processing, Feature Store |
+| **Orchestration** | Kubeflow Pipelines (continuous evaluation), TFDV (TFX) |
+| **Deployment** | FastAPI on Cloud Run, Streamlit, Cloud Build CI/CD, Terraform |
+| **Monitoring** | MLflow, Cloud Monitoring alerts, Evidently AI drift, Pub/Sub + Cloud Run retraining |
 
 ---
 
