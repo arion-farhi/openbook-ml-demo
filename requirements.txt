@@ -1,0 +1,18 @@
+# Openbook ML Demo - Requirements
+torch==2.1.0
+pytorch-lightning==2.1.0
+pandas==2.0.0
+numpy==1.24.0
+scikit-learn==1.3.0
+google-cloud-storage==2.13.0
+google-cloud-aiplatform==1.38.0
+google-cloud-pubsub==2.18.0
+google-cloud-monitoring==2.16.0
+tensorflow-data-validation==1.14.0
+evidently==0.2.8
+mlflow==2.9.0
+kfp==2.4.0
+fastapi==0.104.1
+uvicorn==0.24.0
+streamlit==1.29.0
+httpx==0.25.0
