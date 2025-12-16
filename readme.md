@@ -6,7 +6,7 @@
 
 ## The Problem
 
-Dental practices waste 4+ hours daily on insurance verification. Staff manually call insurance companies, look up benefits, and calculate patient costs. This leads to:
+Dental practices waste 4+ hours daily on insurance verification and treatment plan generation. Staff manually call insurance companies, look up benefits, and calculate patient costs. This leads to:
 - **Billing errors** → claim denials and revenue loss
 - **Poor patient experience** → unexpected costs at checkout
 - **Staff burnout** → repetitive, low-value work
